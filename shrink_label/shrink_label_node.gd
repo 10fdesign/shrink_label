@@ -7,7 +7,6 @@ var containers = []
 
 func _enter_tree():
 	_find_container(get_parent())
-	print(containers)
 
 
 func _exit_tree():
